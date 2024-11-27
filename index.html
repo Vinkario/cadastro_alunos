@@ -4,63 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PÁGINA DE CADASTRO</title>
+    <title>Cadastro de Alunos</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="menu-lateral">
-        <div class="menu-principal"> <a href="">MENU PRINCIPAL</a></div>
-        <div class="menu-principal-alunos"><a href="">ALUNOS</a></div>
-        <div class="menu-principal-alunos"></div>
-        <div class="menu-principal-alunos"></div>
+        <a href="#" class="menu-item">Menu Principal</a>
+        <a href="#" class="menu-item">Alunos</a>
+        <a href="#" class="menu-item">Professores</a>
+        <a href="#" class="menu-item">Cursos</a>
     </div>
+
     <div class="tela-cadastro">
-        <div class="header">
-            <div class="logo"> <img src="assets/images/logoif.png" alt=""></div>
-            <div class="h1"><span>Cadastro de Alunos</span></div>
-        </div>
+        <header class="header">
+            <img class="logo" src="assets/images/logoif.png" alt="Logo">
+            <h1>Cadastro de Alunos</h1>
+        </header>
 
-        <div class="form">
-
+        <main class="form">
             <div class="campos">
-                <form  class="coluna1" action="">
-                    <input type="text" placeholder="Nome:">
-                    <input type="number" placeholder="CPF:">
-                    <input type="number" placeholder="RG">
-                    <input type="number" placeholder="Telefone">
+                <form class="coluna">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="CPF">
+                    <input type="text" placeholder="RG">
+                    <input type="text" placeholder="Telefone">
                     <input type="text" placeholder="Endereço">
-                    <input type="text" placeholder="Nº Matricula">
-                    <input type="text" placeholder="Cidade:">
+                    <input type="text" placeholder="Nº Matrícula">
+                    <input type="text" placeholder="Cidade">
                 </form>
 
-                <form class="coluna1" action="">
-                    <input type="text" placeholder="ID do Aluno:">
-                    <input type="text" placeholder="Estado:">
-                    <input type="number" placeholder="CEP">
-                    <input type="text" placeholder="Campus:">
-                    <input type="date" placeholder="Data de naacimento:">
+                <form class="coluna">
+                    <input type="text" placeholder="ID do Aluno">
+                    <input type="text" placeholder="Estado">
+                    <input type="text" placeholder="CEP">
+                    <input type="text" placeholder="Campus">
+                    <input type="date" placeholder="Data de Nascimento">
                     <div class="buttons">
-                        <button class="cadastrar">CADASTRAR</button>
-                        <button class="cancelar">CANCELAR</button>
+                        <button type="submit" class="cadastrar">Cadastrar</button>
+                        <button type="reset" class="cancelar">Cancelar</button>
                     </div>
-                   
                 </form>
             </div>
             <div class="logo-grande">
-                <img src="assets/images/logo.png" alt="">
+                <img src="assets/images/logo.png" alt="Logo Grande">
             </div>
-
-
-
-
-        </div>
-
-
-
-
-
-
+        </main>
     </div>
 </body>
 
